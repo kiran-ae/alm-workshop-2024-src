@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - '**'
+  release:
+    types:
+      - published
 
 env:
   CONTAINER_REPOSITORY: quay.io/kiran-ae # PUT YOUR OWN USERNAME HERE
